@@ -27,7 +27,19 @@
           <span class="brand-dot" aria-hidden="true"></span>
           <span class="brand-name">Erick Morales</span>
         </div>
-        <ul class="nav-links">
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          type="button"
+          aria-controls="nav-links"
+          aria-expanded="false"
+          aria-label="Toggle navigation menu"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
           <li><a href="#about" data-i18n="nav.about">About</a></li>
           <li>
             <a href="#experience" data-i18n="nav.experience">Experience</a>
@@ -87,14 +99,14 @@
               data-i18n="hero.cta.primary"
               >View LinkedIn</a
             >
-            
+
             <a
               class="btn"
               href="mailto:erickmora0503@gmail.com"
               data-i18n="hero.cta.secondary"
               >Email me</a
             >
-            <a 
+            <a
               class="btn"
               href="https://github.com/ErickMoraL"
               target="_blank"
@@ -143,8 +155,8 @@
               <span class="badge">Git</span>
             </div>
             <div class="note" data-i18n="hero.note">
-              Focused on DX: efficient scaffolding, clear data models,
-              and smooth deployments.
+              Focused on DX: efficient scaffolding, clear data models, and
+              smooth deployments.
             </div>
           </div>
         </div>
@@ -264,7 +276,6 @@
       <section id="projects" class="section">
         <div class="section__header">
           <h2 data-i18n="projects.heading">Selected Work</h2>
-          
         </div>
         <div class="project-grid">
           <article class="card project">
@@ -391,10 +402,13 @@
               >
             </p>
             <p>
-              <strong data-i18n="contact.availability.label">Availability:</strong>
+              <strong data-i18n="contact.availability.label"
+                >Availability:</strong
+              >
               <span data-i18n="contact.availability.value"
                 >Open for backend roles</span
               >
+            </p>
           </div>
         </div>
       </section>

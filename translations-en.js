@@ -99,6 +99,5 @@ window.TRANSLATIONS_EN = {
   "contact.availability.label": "Availability:",
   "contact.availability.value": "Open for backend roles",
 
-
   "footer.text": "© 2026 Erick Morales",
 };
